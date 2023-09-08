@@ -1,5 +1,12 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import {
+  FaHtml5,
+  FaJs,
+  FaReact,
+  FaVuejs,
+  FaLaravel,
+  FaNodeJs,
+} from 'react-icons/fa';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -27,6 +34,24 @@ export const skills = [
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
+  {
+    id: nanoid(),
+    title: 'Vue',
+    icon: <FaVuejs className="h-16 w-16 text-emerald-500" />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
+    title: 'Laravel',
+    icon: <FaLaravel className="h-16 w-16 text-emerald-500" />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
+    title: 'Node',
+    icon: <FaNodeJs className="h-16 w-16 text-emerald-500" />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
 ];
 
 export const projects = [
@@ -34,7 +59,7 @@ export const projects = [
     id: nanoid(),
     img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
     url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
+    github: 'https://github.com/iamfelixjp',
     title: 'first project',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
@@ -42,7 +67,7 @@ export const projects = [
     id: nanoid(),
     img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
     url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
+    github: 'https://github.com/iamfelixjp',
     title: 'second project',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
@@ -50,7 +75,7 @@ export const projects = [
     id: nanoid(),
     img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
     url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
+    github: 'https://github.com/iamfelixjp',
     title: 'third project',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
@@ -58,7 +83,7 @@ export const projects = [
     id: nanoid(),
     img: 'https://images.pexels.com/photos/270557/pexels-photo-270557.jpeg?auto=compress&cs=tinysrgb&w=600',
     url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
+    github: 'https://github.com/iamfelixjp',
     title: 'laravel project',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
